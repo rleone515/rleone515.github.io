@@ -10,6 +10,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- smooth scroll taken from https://www.w3schools.com/cssref/pr_scroll-behavior.asp -->
+		<style>
+			html {
+ 		 	scroll-behavior: smooth;
+			}
+		</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 	</head>
@@ -25,12 +31,11 @@
 							<ul class="actions stacked">
 								<li>
 									<a href="https://drive.google.com/file/d/1hRGFrgCdk7Eu-mHbBmpMt6bAFfgIIvA5/view?usp=sharing" class="button large wide smooth-scroll-middle">Download My Resume</a> 
-									<a href="#first" class="button large wide smooth-scroll">Projects</a> 
 								</li>
 							</ul>
 						</div>
-					</section>
-
+						<a href="#first"><div class="scroll-down"></div></a>
+					</section> 
 				<!-- STEAMworks -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
@@ -96,7 +101,7 @@
 									<h3>Programs and Software</h3>
 									<ul style="list-style:none; font-family:'Century Gothic', sans-serif;">
 										<li>UNIX</li>
-										<li>Oracle DBMS</li>
+										<li>Oracle</li>
 										<li>Microsoft Visio</li>
 										<li>Jupyter Notebook</li>
 										<li>Adobe Dreamweaver</li>
